@@ -1,0 +1,30 @@
+/*? Scroller Component Styling ?*/
+.scroller[data-animated=true] {
+    overflow-x: hidden;
+    background: rgba(255, 255, 255, 0.021);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    /* -webkit-mask: linear-gradient(transparent, white);
+    mask: linear-gradient(90deg, transparent 0%, white 20%, white 80%, transparent); */
+}
+
+.scroller[data-animated=true] .scroller__inner {
+    width: fit-content;
+    flex-wrap: nowrap;
+    animation: scroll 20s linear infinite;
+}
+
+.scroller .tagList>* {
+    flex: 1 0 220px;
+    text-align: center;
+    padding: 1.10em 1.75em;
+    border-radius: 5px;
+    /* background-color: #ffffff38; */
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 0.5em));
+    }
+}

@@ -1,0 +1,8 @@
+.card {
+    & .description .cta {
+        background-color: #0093E9;
+        background-image: linear-gradient(106deg, #0093E9 0%, #567cce 100%);
+    } & .description .cta:hover {
+        filter: brightness(0.75);
+    }
+}

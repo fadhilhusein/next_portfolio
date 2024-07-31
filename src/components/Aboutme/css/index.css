@@ -1,0 +1,58 @@
+/* .box {
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0 4px 10px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    transition: background-color .5s ease;
+}
+
+.gradient {
+    background-color: #0093E9;
+    background-image: linear-gradient(315deg, #0093E9 0%, #1be2cc 94%);
+    transition: background-color .5s ease;
+} */
+
+.line-dash {
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 6px;
+    border-radius: 30px;
+    background-color:hsla(217,100%,50%,1);
+    background-image:
+    radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
+    radial-gradient(at 35% 74%, hsla(208,100%,70%,1) 0px, transparent 50%);
+    background-size: 200% 200%;
+}
+
+.text {
+    /* background-image: -webkit-linear-gradient(140deg, #615d5d 0%, #f0f0f0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    opacity: 0;
+}
+
+/* Content */
+.about_me__content .profile {
+    filter: drop-shadow(10px 10px 5px white);
+}
+
+.biograph {
+    background: rgba(255, 255, 255, 0.021);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+}
+.biograph .profilePicture {
+    background-image: url(../../../../public/profile.jpg);
+    background-position: 50% 0%;
+}
+.biograph .about_me__text {
+    background: rgba(255, 255, 255, 0.082);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+}.biograph .quotesIcon {
+    filter: drop-shadow(4px 4px 0px rgb(211, 197, 0));
+}
