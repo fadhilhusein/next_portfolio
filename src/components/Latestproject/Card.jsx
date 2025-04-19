@@ -32,6 +32,7 @@ const Card = ({index, heading="tolong isi headingnya !!!"}) => {
                 src={`project/project${index}.svg`}
                 width={"1000"}
                 height={"500"}
+                loading="lazy"
             />
             <div className="description flex flex-col">
                 <h2 className="text-lg">{heading}</h2>
